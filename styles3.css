@@ -1,0 +1,152 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left {
+    width: 40%;
+    height: 100vh;
+    background-color: gold;
+    background-image: url(../kodecamp/img/pexels-andres-ayrton-6578392-1img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.left h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left h3 {
+    padding-top: 350px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    padding-left: 50px;
+    font-size: 20px;
+    color: white;
+    font-family: serif;
+}
+
+.right {
+    width: 60%;
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.logo img {
+    width: 80px;
+    height: 60px;
+}
+
+h2 {
+    color: blue;
+    padding-left: 40px;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+label {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.label-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.label-container input {
+    width: 92%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+select {
+    width: 92%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.left-label, .right-label {
+    width: 100%;
+}
+
+.left-side-2 input {
+    width: 90%;
+    height: 60px;
+}
+
+.left-side-2 label {
+    margin-left: 35px;
+}
+
+textarea {
+    width: 90%;
+    height: 70px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, serif;
+    margin-left: 30px;
+    
+}
+
+.btn {
+    border-radius: 0px;
+    border: 0px;
+    margin-left: 15px;
+    margin-right: 20px;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.my-btn {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 30px;
+    margin-right: 20px;
+    font-size: 50px;
+    background-color: blue;
+    margin-left: 400px;
+    border-radius: 10px, 1px;
+
+}
